@@ -1,0 +1,78 @@
+
+body {
+   font-family: Arial, sans-serif;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   margin: 0;
+   background-color: #92ab7c; /* Initial background color */
+   animation: changeBackground 10s infinite ; /* Dynamic background transition */
+ /* position: relative; */
+ overflow: hidden;
+
+   
+ }
+
+ @keyframes changeBackground {
+   0% {
+     background-color: #749f76; /* Starting color */
+   }
+   100% {
+     background-color: #2a8e72; /* Ending color */
+   }
+ }
+ #canvas-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+  }
+  
+  canvas {
+    display: block;
+  }
+
+   .container {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     width: 700px;
+   }
+
+   .form-group {
+     width: 35%;
+     margin-bottom: 20px;
+   }
+
+   .form-group label {
+     /* display: block; */
+     font-weight: bold;
+     margin-bottom: 5px;
+   }
+
+   .form-group input[type="text"],
+   .form-group input[type="tel"],
+   .form-group input[type="date"] {
+     width: 100%;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     background-color: darkgrey;
+   }
+
+   .form-group input[type="radio"] {
+     margin-right: 5px;
+   }
+
+   .hidden-textbox {
+     display: none;
+     margin-top: 10px;
+   }
+ .footer{
+  width: 100%;
+  position: absolute;
+  top: 92%;
+ }

@@ -1,0 +1,39 @@
+.frame {
+    height: 90vh;
+    width: 90vw;
+    margin: 5vh 5vw;
+    background-color: #eee;
+    background-position: center;
+    background-size: cover;
+    
+    animation: change 20s infinite;
+    background-image: url(images/slidernew9.jpg);
+    backdrop-filter: blur(5px);
+  }
+  
+  @keyframes change {
+    0% {
+        background-image: url(images/slidernew1.jpg);
+    }
+    14% {
+        background-image: url(images/slidernew2.jpg);
+    }
+    28% {
+        background-image: url(images/slidernew3.jpg);
+    }
+    42% {
+        background-image: url(images/slidernew4.jpg);
+    }
+    56% {
+        background-image: url(images/slidernew5.jpg);
+    }
+    70% {
+        background-image: url(images/slidernew6.jpg);
+    }
+    84% {
+        background-image: url(images/slidernew7.jpg);
+    }
+    100% {
+        background-image: url(images/slidernew7.jpg);
+    }
+}

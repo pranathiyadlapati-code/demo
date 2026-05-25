@@ -1,0 +1,30 @@
+
+body {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+     /* Prevent horizontal scrolling if content exceeds viewport width */
+}
+.gradient-custom-2 {
+    
+    background: #fccb90;
+    
+    
+    background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    
+   
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    }
+    
+    @media (min-width: 768px) {
+    .gradient-form {
+    height: 135vh !important;
+    }
+    }
+    @media (min-width: 769px) {
+    .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    }
+    }
