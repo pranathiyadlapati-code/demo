@@ -861,7 +861,7 @@ for(let i=0;i<20;i++){
     -->
 
 <div class="topbar-nav">
-    <a href="checkdetails.php" class="nav-link active">📖 Slam Book</a>
+    <a href="checkdetails.php" class="nav-link active">📖 Sla Book</a>
     <a href="feedback.php" class="nav-link">📝 Exit Feedback</a>
 </div>
 
